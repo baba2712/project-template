@@ -1,0 +1,19 @@
+# Ignore Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Ignore test and coverage output
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Ignore editors and OS files
+.vscode/
+.idea/
+.DS_Store
